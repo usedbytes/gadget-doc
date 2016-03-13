@@ -1,4 +1,4 @@
-[gadget-doc](/README.md) > [i2c](/i2c/index.md)
+[gadget-doc](/README.md) / [i2c](/i2c/index.md)
 
 i2c
 ===

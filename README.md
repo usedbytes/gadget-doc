@@ -1,4 +1,4 @@
-[gadget-doc](/README.md)
+[gadget-doc](/README.md) /
 
 # Gadget Documentation Project
 
