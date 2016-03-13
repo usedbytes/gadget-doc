@@ -70,7 +70,7 @@ but may not have been tested or may be missing some features/tools.
 | raw 2-/3-wire                     | ❓ GPIO + Python                                |
 | [JTAG](jtag/index.md)             | ❓ Supported (openOCD, untested)                |
 | [AVR ISP](avrisp/index.md)        | ✓ Supported                                    |
-| [flashrom](flashrom/index.md)     | ❓ Supported (untested)                         |
+| [flashrom](flashrom/index.md)     | ✗ To be added.                                 |
 | [Oscilloscope](piscope/index.md)  | ❓ Digital only                                 |
 | [Logic analyser](logic/index.md)  | ✗ Future. (sigrok)                             |
 
