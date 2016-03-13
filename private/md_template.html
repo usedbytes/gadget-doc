@@ -1,0 +1,22 @@
+<html>
+	<head>
+		<title>{{ .Title }}</title>
+		<meta charset="utf-8">
+		<link href="/style/github-flavored-markdown.css" media="all" rel="stylesheet" type="text/css" />
+		<link href="/style/octicons/octicons.css" media="all" rel="stylesheet" type="text/css" />
+		<style>
+			.markdown-body {
+				box-sizing: border-box;
+				min-width: 200px;
+				max-width: 980px;
+				margin: 0 auto;
+				padding: 45px;
+			}
+		</style>
+	</head>
+	<body>
+		<article class="markdown-body entry-content">
+		{{ .Markup }}
+		</article>
+	</body>
+</html>
