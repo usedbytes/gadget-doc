@@ -35,7 +35,7 @@ It is recommended to use an [i2c level shifter](#level-shifting) for connecting
 
 The Rapberry Pi's i2c1 bus is broken out on the GPIO header:
 
-![Raspberry PI i2c pins](i2c_pins.png)
+![Raspberry PI i2c pins](./i2c_pins.png)
 
 ### i2c-tools
 
@@ -111,7 +111,7 @@ build one with a couple of N-channel MOSFETS and resistors using the following
 circuit from an [NXP application note on i2c level
 shifting](http://www.nxp.com/documents/application_note/AN10441.pdf):
 
-![Level shifter circuit](level_shift.png)
+![Level shifter circuit](./level_shift.png)
 
 \* The pull-up resistors on the 3v3 side are omitted from this schematic as
 they are present on the Raspberry Pi board.
