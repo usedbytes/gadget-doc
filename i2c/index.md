@@ -22,16 +22,13 @@ on the basis that something is better than nothing.
 Hardware connection
 -------------------
 
-<b>
-The Raspberry Pi i2c bus is 3v3 only. There are on-board pull-up resistors to
+<div class="warning">
+<b>The Raspberry Pi i2c bus is 3v3 only.</b> There are on-board pull-up resistors to
 3v3.
 
-Connecting to 5 V devices is possible if the 5 V device does not have its own
-pull-up resistors to 5 V. This is risky, and could cause damage to the
-Raspberry Pi if the i2c device malfunctions.
-
-It is recommended to use an [i2c level shifter](#level-shifting) for connecting
-5 V i2c devices to the Raspberry Pi </b>
+It is recommended to use an <a href="#level-shifting">i2c level shifter</a> for
+connecting 5 V i2c devices to the Raspberry Pi
+</div>
 
 The Rapberry Pi's i2c1 bus is broken out on the GPIO header:
 
