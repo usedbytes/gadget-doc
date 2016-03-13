@@ -9,11 +9,11 @@ a single GPIO for the <span class="overline">RST</span> pin.
 By default this is set to GPIO 25 (which has good locality with the SPI bus
 pins) but this can be configured in `/etc/avrdude.conf`
 
-To utilise it, use the programmer type `linuxspi` and the port `/dev/spi32766.0`.
+To utilise it, use the programmer type `linuxspi` and the port `/dev/spidev0.0`.
 For example, to read the device signature from an Atmega328p, use this command:
 
 ```
-$ avrdude -c linuxspi -P /dev/spidev32766.0 -p atmega328p
+$ avrdude -c linuxspi -P /dev/spidev0.0 -p atmega328p
 
 ```
 
