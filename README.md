@@ -11,14 +11,6 @@ accessed via HTTP on port 80 of the ethernet interface.
 
 If your Gadget is using the default setup, go here: http://192.168.3.142/
 
-## Already have Gadget?
-
-[Check out Getting Started](/getting-started/index.md)
-
-## Want to get gadget?
-
-[Visit the main project page](/dev/null)
-
 ## What's Gadget?
 
 Gadget is an attempt to make a useful hacker's toolkit out of
@@ -59,8 +51,8 @@ but may not have been tested or may be missing some features/tools.
 
 |  Protocol                         | Gadget                                         |
 |:----------------------------------|:-----------------------------------------------|
-| [1-wire](/1-wire/index.md)        | ❓ w1-gpio driver. Need userspace tools         |
-| [UART](uart/index.md)             | ✓ Supported                                    |
+| 1-wire                            | ❓ w1-gpio driver. Need userspace tools         |
+| UART                              | ✓ Supported                                    |
 | MIDI                              | ✗ Unsure                                       |
 | [i2c](i2c/index.md) Master        | ✓ Supported                                    |
 | [i2c](i2c/index.md) Address scan  | ✓ Supported                                    |
@@ -68,13 +60,8 @@ but may not have been tested or may be missing some features/tools.
 | [SPI](spi/index.md) Master        | ✓ Supported                                    |
 | [SPI](spi/index.md) Sniffing      | ✗ Future. See [Logic Analyser](logic/index.md) |
 | raw 2-/3-wire                     | ❓ GPIO + Python                                |
-| [JTAG](jtag/index.md)             | ❓ Supported (openOCD, untested)                |
+| JTAG                              | ❓ Supported (openOCD, untested)                |
 | [AVR ISP](avrisp/index.md)        | ✓ Supported                                    |
-| [flashrom](flashrom/index.md)     | ✗ To be added.                                 |
-| [Oscilloscope](piscope/index.md)  | ❓ Digital only                                 |
+| flashrom                          | ✗ To be added.                                 |
+| Oscilloscope                      | ❓ Digital only                                 |
 | [Logic analyser](logic/index.md)  | ✗ Future. (sigrok)                             |
-
-## Developers
-
-For all matters related to the internals of Gadget, or how you can
-help, check out the [Developers](/developers/index.md) page.
