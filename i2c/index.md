@@ -30,7 +30,7 @@ It is recommended to use an <a href="#level-shifting">i2c level shifter</a> for
 connecting 5 V i2c devices to the Raspberry Pi
 </div>
 
-The Rapberry Pi's i2c1 bus is broken out on the GPIO header:
+The Rapberry Pi's `i2c-1` bus is broken out on the GPIO header:
 
 ![Raspberry PI i2c pins](./i2c_pins.png)
 
